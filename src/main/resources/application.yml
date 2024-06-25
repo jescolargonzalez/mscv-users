@@ -16,7 +16,7 @@ spring:
     url: jdbc:mysql://localhost/mscv-users?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
   jpa:
-    generate-ddl: false
+    generate-ddl: true
   flyway:
     enabled: true
     locations: classpath:/db/migration
